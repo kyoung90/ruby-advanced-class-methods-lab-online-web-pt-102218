@@ -43,6 +43,7 @@ class Song
     if found
       return found
     else 
+      puts "hi"
       return self.create_by_name(name)
     end 
 
