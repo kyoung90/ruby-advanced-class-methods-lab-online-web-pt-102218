@@ -30,6 +30,6 @@ class Song
   end 
   
   def self.find_by_name(name)
-    @all.select(n)
+    @all.select()
   end 
 end
