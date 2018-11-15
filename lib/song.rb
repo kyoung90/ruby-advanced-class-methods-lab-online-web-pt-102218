@@ -56,5 +56,6 @@ class Song
     song = self.create
     song.artist_name = file[0]
     song.name = file[1][0..-5]
+    return song
   end 
 end
