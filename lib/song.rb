@@ -42,6 +42,10 @@ class Song
     found = find_by_name(name)
     if found
       
+    else 
+      found = self.new
+      found.name = name
     end 
+    found
   end
 end
