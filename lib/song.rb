@@ -57,5 +57,11 @@ class Song
     song.artist_name = file[0]
     song.name = file[1][0..-5]
     return song
+  end
+  
+  def self.create_from_filename(filename)
+    song = self.new_from_filename(filename)
+    @@all << song 
+    return song
   end 
 end
