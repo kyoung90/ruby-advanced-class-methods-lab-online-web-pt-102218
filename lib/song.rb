@@ -42,9 +42,8 @@ class Song
     found = self.find_by_name(name)
     if found
       return found
-    else 
-      return self.create_by_name(name)
     end 
+    return self.create_by_name(name)
   end
   
   def self.alphabetical
