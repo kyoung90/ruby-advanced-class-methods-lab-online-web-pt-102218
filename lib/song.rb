@@ -55,7 +55,7 @@ class Song
     file = filename.split("-")
     song = self.create
     song.artist_name = file[0]
-    song.name = file[1][1..-5]
+    song.name = file[1][1..-6]
     return song
   end 
 end
