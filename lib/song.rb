@@ -25,6 +25,6 @@ class Song
     song = self.new 
     song.name = name
     @@all << song 
-    
+    return song
   end 
 end
