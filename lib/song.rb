@@ -43,7 +43,7 @@ class Song
     if found
   
     else 
-      found = create_by_name(name)
+      create_by_name(name)
     end 
 
   end
